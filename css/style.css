@@ -142,4 +142,28 @@ div#left-box article,
 div#right-box article{
     width: calc(100% / 2);
     background-color: beige;
+    border: 1px dotted violet;
+}
+
+/* SECTION FREE TRIAL BUSSINES */
+
+section.trial-area{
+    width: 100vw;
+    height: 25vh;
+    background-color: #b4d0e7;
+
+}
+
+div.content{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SECTION FAQ */
+
+div.faq-box{
+    
+    height: 50rem;
+    background-color: saddlebrown;
 }
