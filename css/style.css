@@ -61,12 +61,23 @@ article#main-jumbo{
 /* MAIN SECTION PLANS */
 
 div#section-title{
-    margin: 4rem 0 4rem 1rem;
+    margin: 4rem 0 ;
 }
 
-article#professional{
+article.plans{
     width: calc(100% / 3);
     height: 900px;
-    margin: 2rem 1rem;
+    /* margin: 2rem 1rem; */
     background-color: blue;
+}
+
+div.cards article:nth-of-type(even){
+    margin: 0 2rem;
+}
+
+div#enterprise{
+    width: 100%;
+    height: 250px;
+    margin-top: 3rem;
+    background-color: aqua;
 }
