@@ -65,13 +65,14 @@ div#section-title{
 }
 
 article.plans{
-    width: calc(100% / 3);
+    width: 30%;
     height: 900px;
     background-color: blue;
+    justify-content: space-between;
 }
 
-div.elements article:nth-of-type(even){
-    margin: 0 3rem;
+div.elements{
+    justify-content: space-between;
 }
 
 div#enterprise{
@@ -127,7 +128,6 @@ section.cust-preview{
 
 section.customers{
     width: 100vw;
-    height: 40vh;
    
 }
 
@@ -139,8 +139,8 @@ div.cubes{
 }
 
 
-div#left-box article,
-div#right-box article{
+div#left-box div,
+div#right-box div{
     width: calc(100% / 2);
     background-color: beige;
     border: 1px dotted violet;
@@ -151,7 +151,6 @@ div#right-box article{
 section.trial-area{
     width: 100vw;
     height: 25vh;
-    margin-top: 5rem;
     background-color: #b4d0e7;
 
 }
