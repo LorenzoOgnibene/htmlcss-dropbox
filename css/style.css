@@ -12,7 +12,7 @@
 /* TOP HEADER STYLE */
 
 nav#top-nav{
-    height: 7rem;
+    height: 6.5rem;
     width: 100vw;
     background-color: red;
     justify-content: space-between;
@@ -20,11 +20,21 @@ nav#top-nav{
 
 #left-side,
 #right-side{
-    width: 50rem;
+    width: 35%;
     background-color: aliceblue;
     align-items: center;
 }
 
 div#right-side{
     justify-content: end;
+}
+
+
+/* STYLE MAIN */
+    /* STYLE MAIN HEADER */
+
+header#main-header{
+    height: 75vh;
+    width: 100vw;
+    background-color: #b4d0e7;
 }
