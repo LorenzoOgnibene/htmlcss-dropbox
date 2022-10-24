@@ -163,7 +163,34 @@ div.content{
 /* SECTION FAQ */
 
 div.faq-box{
-    
-    height: 50rem;
+    height: 60vh;
     background-color: saddlebrown;
+}
+
+
+/* FOOTER */
+
+#last-footer{
+    background-color: black;
+}
+
+section#footer-top{
+    height: 35rem;
+
+}
+
+nav.footer-nav{
+    height: 100%;
+    align-items: center;
+}
+
+article.useful-links{
+    width: calc(100% / 5);
+    height: 20rem;
+    background-color: aquamarine;
+    
+}
+
+section#bottom-footer{
+    height: 8rem;
 }
