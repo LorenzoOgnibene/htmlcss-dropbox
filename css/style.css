@@ -132,7 +132,8 @@ section.customers{
 }
 
 div.cubes{
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     background-color: skyblue;
     flex-wrap: wrap;
 }
@@ -150,6 +151,7 @@ div#right-box article{
 section.trial-area{
     width: 100vw;
     height: 25vh;
+    margin-top: 5rem;
     background-color: #b4d0e7;
 
 }
