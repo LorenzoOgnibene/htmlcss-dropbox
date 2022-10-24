@@ -84,6 +84,10 @@ div#enterprise{
 
 /* SECTION PARTNER */
 
+section.partner-box{
+    margin: 25rem auto;
+}
+
 div#big-box{
     width: 60%;
     height: 500px;
@@ -107,4 +111,35 @@ article.card{
     width: calc(100% / 3);
     height: 500px;
     background-color: burlywood;
+    border: 4px solid white;
+    margin-top: 1rem;
+}
+
+
+/* SECTION INTRODUCTION CUSTOMER */
+
+section.cust-preview{
+    margin: 5rem auto;
+}
+
+
+/* CUSTOMERS LOGO */
+
+section.customers{
+    width: 100vw;
+    height: 40vh;
+   
+}
+
+div.cubes{
+    width: calc(100vw / 3);
+    background-color: skyblue;
+    flex-wrap: wrap;
+}
+
+
+div#left-box article,
+div#right-box article{
+    width: calc(100% / 2);
+    background-color: beige;
 }
