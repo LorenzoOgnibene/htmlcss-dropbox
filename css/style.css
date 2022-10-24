@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.min-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .flex{
     display: flex;
 }
@@ -36,5 +46,27 @@ div#right-side{
 header#main-header{
     height: 75vh;
     width: 100vw;
+    align-items: center;
     background-color: #b4d0e7;
+    
+    
+}
+
+article#main-jumbo{
+    height: 100%;
+    background-color: red;
+}
+
+
+/* MAIN SECTION PLANS */
+
+div#section-title{
+    margin: 4rem 0 4rem 1rem;
+}
+
+article#professional{
+    width: calc(100% / 3);
+    height: 900px;
+    margin: 2rem 1rem;
+    background-color: blue;
 }
