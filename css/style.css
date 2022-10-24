@@ -5,3 +5,26 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+}
+
+/* TOP HEADER STYLE */
+
+nav#top-nav{
+    height: 7rem;
+    width: 100vw;
+    background-color: red;
+    justify-content: space-between;
+}
+
+#left-side,
+#right-side{
+    width: 50rem;
+    background-color: aliceblue;
+    align-items: center;
+}
+
+div#right-side{
+    justify-content: end;
+}
