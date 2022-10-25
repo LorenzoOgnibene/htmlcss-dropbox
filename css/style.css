@@ -185,7 +185,7 @@ div.plan-cost{
     line-height: 2;
 }
 
-div.plan-cost h3{
+h3{
     font-size: 2rem;
 }
 
@@ -202,7 +202,6 @@ div.plan-description p:nth-last-of-type(even){
 div.try{
     text-align: center;
 }
-
 
 hr{
     margin-left: 2rem;
@@ -241,21 +240,33 @@ div.info{
 /* SECTION PARTNER */
 
 section.partner-box{
-    margin: 25rem auto;
+    margin: 10rem auto;
 }
 
 div#big-box{
     width: 60%;
-    height: 500px;
-    background-color: violet;
+}
 
+div#big-box img{
+    width: 100%;
+    
 }
 
 div#small-box{
-    width: 40%;
-    height: 500px;
-    background-color: beige;
+    width: 40%; 
+    padding: 5rem;
 }
+
+div#small-box p{
+    padding: 1.5rem 0;
+}
+
+div#small-box button{
+    border: 1px solid gray;
+}
+
+
+
 
 /* SECTION BUSSINES CARDS */
 
