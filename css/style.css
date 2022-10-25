@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container{
     width: 65%;
     margin: 0 auto;
@@ -19,25 +23,54 @@
     display: flex;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.style-button{
+    padding: 0.6rem 1.25rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+}
+
+/* COLOR */
+
+.bg-blue{
+    background-color: #0061ff;
+    color: white;
+}
+
 /* TOP HEADER STYLE */
 
 nav#top-nav{
-    height: 6.5rem;
+    height: 110px;
     width: 100vw;
-    background-color: red;
     justify-content: space-between;
 }
 
 #left-side,
 #right-side{
-    width: 35%;
-    background-color: aliceblue;
+    width: 50%;
     align-items: center;
+    font-size: 1.3rem;   
 }
 
-div#right-side{
-    justify-content: end;
+#right-side{
+    justify-content: flex-end;
+    padding-right: 2rem;
 }
+
+nav#top-nav a,
+img{
+    padding: 0 2rem;
+}
+
+nav#top-nav img{
+    width: 250px;
+}
+
 
 
 /* STYLE MAIN */
