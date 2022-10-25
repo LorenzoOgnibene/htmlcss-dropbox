@@ -419,11 +419,6 @@ div.content button{
 
 /* SECTION FAQ */
 
-/* div.faq-box{
-    height: 1000px;
-   
-} */
-
 div.faq-box h2{
     font-size: 3rem;
     padding-top: 10rem;
@@ -448,25 +443,51 @@ div.question .fa-solid{
 
 #last-footer{
     background-color: black;
+    padding: 2rem;
 }
 
-section#footer-top{
-    height: 35rem;
+section#footer-top hr{
+    width: 10%;
+}
 
+article.useful-links ul{
+    list-style-type: none;
+}
+
+article.useful-links ul li{
+    padding: 0.8rem 0;
+}
+
+article.useful-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+article.useful-links h4{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 800;
 }
 
 nav.footer-nav{
     height: 100%;
     align-items: center;
+    margin-bottom: 8rem;
 }
 
 article.useful-links{
     width: calc(100% / 5);
-    height: 20rem;
-    background-color: aquamarine;
-    
 }
 
-section#bottom-footer{
-    height: 8rem;
+div.lenguage{
+    margin-top: 3rem;
+}
+
+div.lenguage select{
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-size: 1.2rem;
 }
