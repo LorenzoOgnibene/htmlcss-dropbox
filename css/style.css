@@ -30,7 +30,7 @@ body{
     align-items: center;
 }
 
-a{
+.a-syle{
     text-decoration: none;
     color: black;
 }
@@ -59,6 +59,46 @@ p{
 
 .c-blue{
     color: #0061ff;
+}
+
+.bg-grey{
+    background-color: #f5f5f5;
+}
+
+.bg-green{
+    background-color: #a2d39b;
+}
+
+.bg-blood{
+    background-color: #61082b;
+}
+
+.bg-sky{
+    background-color: #0093ce;
+}
+
+.bg-orange{
+    background-color: #ff1c1c;
+}
+
+.bg-red{
+    background-color: #d5001f;
+}
+
+.bg-light-sky{
+    background-color: #b4d0e7;
+}
+
+.bg-blu{
+    background-color: #0d2481;
+}
+
+.bg-yellow{
+    background-color: #ffd830;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 /* TOP HEADER STYLE */
@@ -203,7 +243,7 @@ div.try{
     text-align: center;
 }
 
-hr{
+div.elements hr{
     margin-left: 2rem;
     margin-top: 1rem;
     color: gray;
@@ -240,7 +280,7 @@ div.info{
 /* SECTION PARTNER */
 
 section.partner-box{
-    margin: 10rem auto;
+    margin: 15rem auto;
 }
 
 div#big-box{
@@ -254,7 +294,8 @@ div#big-box img{
 
 div#small-box{
     width: 40%; 
-    padding: 5rem;
+    padding-left: 5rem;
+    padding-top: 2.5rem;
 }
 
 div#small-box p{
@@ -272,14 +313,21 @@ div#small-box button{
 
 div#cards{
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 article.card{
-    width: calc(100% / 3);
-    height: 500px;
-    background-color: burlywood;
-    border: 4px solid white;
+    width: 30%;
     margin-top: 1rem;
+}
+
+div#cards img{
+    width: 100%;
+}
+
+section.six-cards h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -287,6 +335,16 @@ article.card{
 
 section.cust-preview{
     margin: 5rem auto;
+}
+
+section.cust-preview h2{
+    font-size: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+section.cust-preview a{
+    font-size: 1.2rem;
 }
 
 
@@ -300,23 +358,44 @@ section.customers{
 div.cubes{
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: skyblue;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
 }
-
 
 div#left-box div,
 div#right-box div{
     width: calc(100% / 2);
-    background-color: beige;
-    border: 1px dotted violet;
+}
+
+ div.cube img{
+    width: 200px;
+    filter: invert(100%);
+}
+
+div.bordered{
+    border: 20px solid #d1e9cd;
+}
+
+div#central-box{
+    padding: 6rem;
+}
+
+div#central-box img{
+    width: 300px;
+    padding-bottom: 3rem;
+}
+
+div#central-box>p{
+    padding: 3rem 0;
+}
+
+div#central-box hr{
+    width: 20%;
 }
 
 /* SECTION FREE TRIAL BUSSINES */
 
 section.trial-area{
     width: 100vw;
-    height: 25vh;
     background-color: #b4d0e7;
 
 }
@@ -325,15 +404,45 @@ div.content{
     height: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 10rem 0;
 }
+
+div.content h2{
+    color: #61082b;
+    font-size: 3rem;
+}
+
+div.content button{
+    padding: 1rem 3rem;
+}
+
 
 /* SECTION FAQ */
 
-div.faq-box{
-    height: 60vh;
-    background-color: saddlebrown;
+/* div.faq-box{
+    height: 1000px;
+   
+} */
+
+div.faq-box h2{
+    font-size: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
 }
 
+div.faq-box div.question p{
+    margin: 3rem 0;
+}
+
+div.question{
+    position: relative;
+    margin-bottom: 13rem;
+}
+
+div.question .fa-solid{
+    position: absolute;
+    right: 10px;
+}
 
 /* FOOTER */
 
