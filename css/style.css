@@ -7,10 +7,11 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1624px;
 }
 
 .container{
-    width: 65%;
+    max-width: 1530px;
     margin: 0 auto;
 }
 
@@ -26,6 +27,10 @@ body{
 a{
     text-decoration: none;
     color: black;
+}
+
+p{
+    font-size: 1.2rem;
 }
 
 .style-button{
@@ -46,7 +51,7 @@ a{
 
 nav#top-nav{
     height: 110px;
-    width: 100vw;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -63,7 +68,7 @@ nav#top-nav{
 }
 
 nav#top-nav a,
-img{
+div#left-side img{
     padding: 0 2rem;
 }
 
@@ -77,18 +82,46 @@ nav#top-nav img{
     /* STYLE MAIN HEADER */
 
 header#main-header{
-    height: 75vh;
-    width: 100vw;
+    height: 950px;
+    width: 100%;
     align-items: center;
-    background-color: #b4d0e7;
-    
-    
+    background-color: #b4d0e7; 
 }
 
 article#main-jumbo{
     height: 100%;
-    background-color: red;
+    padding: 6rem 2.5rem 0rem;
 }
+
+div.jumbo-title h1{
+    font-size: 6rem;
+    font-weight: 800;
+    padding-bottom: 5rem;
+}
+
+div.box-jumbo div.small-box{
+    flex-basis: 35%;
+    position: relative;
+}
+
+div.box-jumbo div.small-box button{
+    margin: 2rem 0;
+}
+
+div.box-jumbo div.small-box span{
+    position: absolute;
+    top: 430px;
+    left: 0;
+}
+
+div.box-jumbo div.big-box{
+    flex-basis: 100%;
+}
+
+div.box-jumbo div.big-box img{
+    width: 100%;
+}
+
 
 
 /* MAIN SECTION PLANS */
