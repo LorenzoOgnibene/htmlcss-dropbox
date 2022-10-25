@@ -103,10 +103,15 @@ p{
 
 /* TOP HEADER STYLE */
 
+
 nav#top-nav{
     height: 110px;
-    width: 100%;
+    width: 100vw;
     justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    
 }
 
 #left-side,
@@ -136,8 +141,9 @@ nav#top-nav img{
     /* STYLE MAIN HEADER */
 
 header#main-header{
-    height: 950px;
+    /* height: 1000px; */
     width: 100%;
+    padding-top: 110px;
     align-items: center;
     background-color: #b4d0e7; 
 }
@@ -156,6 +162,7 @@ div.jumbo-title h1{
 div.box-jumbo div.small-box{
     flex-basis: 35%;
     position: relative;
+    top: 100px;
 }
 
 div.box-jumbo div.small-box button{
@@ -170,6 +177,8 @@ div.box-jumbo div.small-box span{
 
 div.box-jumbo div.big-box{
     flex-basis: 100%;
+    position: relative;
+    top: 100px;
 }
 
 div.box-jumbo div.big-box img{
