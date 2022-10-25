@@ -24,13 +24,19 @@ body{
     display: flex;
 }
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 .style-button{
@@ -45,6 +51,14 @@ p{
 .bg-blue{
     background-color: #0061ff;
     color: white;
+}
+
+.c-grey{
+    color: grey;
+}
+
+.c-blue{
+    color: #0061ff;
 }
 
 /* TOP HEADER STYLE */
@@ -126,10 +140,18 @@ div.box-jumbo div.big-box img{
 
 /* MAIN SECTION PLANS */
 
+.internal-space{
+    padding: 3rem 3rem 2.5rem 2rem;
+}
+
 div#section-title h2{
     padding-top: 11rem;
     padding-bottom: 3rem;
     font-size: 3rem;
+}
+
+div.elements{
+    justify-content: space-between;
 }
 
 div#section-title label{
@@ -145,12 +167,57 @@ div#section-title input{
 
 article.plans{
     width: 30%;
-    height: 900px;
+    /* height: 900px; */
     border: 1px solid gray;
 }
 
-div.elements{
-    justify-content: space-between;
+article div.user{
+    border-bottom: 1px solid gray ;
+    padding: 1rem;
+}
+
+div.user span{
+    padding-left: 0.5rem;
+    font-size: 1.15rem;
+}
+
+div.plan-cost{
+    line-height: 2;
+}
+
+div.plan-cost h3{
+    font-size: 2rem;
+}
+
+div.plan-cost span#price{
+    display: block;
+    font-size: 1.1rem;
+}
+
+
+div.plan-description p:nth-last-of-type(even){
+    margin: 1.5rem 0;
+}
+
+div.try{
+    text-align: center;
+}
+
+
+hr{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: gray;
+    width: 20%;
+}
+
+div.important h4{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+div.important p{
+    padding-top: 1.5rem;
 }
 
 div#enterprise-bottom{
