@@ -60,11 +60,22 @@ hr{
     background-color: transparent;
 }
 
+.style-button:hover{
+    opacity: 75%;
+}
+
+.bg-grey-hov:hover{
+    background-color: rgba(242, 238, 232, 0.9);
+}
+
 .brd-bttm{
     border-bottom: 1px solid grey;
 }
 /* COLOR */
 
+.bg-grey-hov{
+    background-color: transparent;
+}
 
 .c-grey{
     color: grey;
@@ -446,6 +457,24 @@ div.question .fa-solid{
     padding-top: 45px;
 }
 
+/* .displayed{
+    transition: 2s ease-in-out;
+} */
+
+/* FAQ ACCORDION */
+
+div.accordion{
+    display: none;
+    overflow: hidden;
+}
+
+.displayed:hover .accordion{
+    transition: 1s ease-in-out;
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
 /* FOOTER */
 
 #last-footer{
@@ -494,3 +523,5 @@ div.lenguage select{
     color: gray;
     font-size: 1.2rem;
 }
+
+
