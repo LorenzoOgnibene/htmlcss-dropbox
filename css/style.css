@@ -457,19 +457,18 @@ div.question .fa-solid{
     padding-top: 45px;
 }
 
-/* .displayed{
+.displayed{
     transition: 2s ease-in-out;
-} */
+}
 
 /* FAQ ACCORDION */
 
 div.accordion{
     display: none;
-    overflow: hidden;
+ 
 }
 
 .displayed:hover .accordion{
-    transition: 1s ease-in-out;
     display: inline-block;
     padding: 0 10px;
     
