@@ -463,15 +463,20 @@ div.question .fa-solid{
 
 /* FAQ ACCORDION */
 
+.displayed:hover .fa-solid{
+    transform: rotate(180deg);
+    padding-bottom: 45px;
+    right: 10px;
+}
+
 div.accordion{
     display: none;
- 
 }
 
 .displayed:hover .accordion{
     display: inline-block;
     padding: 0 10px;
-    
+    line-height: 1.2;
 }
 
 /* FOOTER */
