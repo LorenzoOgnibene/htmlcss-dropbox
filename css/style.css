@@ -30,7 +30,7 @@ body{
     align-items: center;
 }
 
-.a-syle{
+.a-style{
     text-decoration: none;
     color: black;
 }
@@ -163,7 +163,32 @@ nav#top-nav img{
     width: 250px;
 }
 
+/* SECOND MENU ON HOVER */
 
+div.second-menu{
+    position: relative;
+    height: 100%;
+    padding-top: 2.5rem;
+    width: 195px;
+}
+
+div.content-menu{
+    display: none;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(242, 238, 232, 0.9);
+    position: absolute;
+    top: 110px;
+}
+
+div.second-menu:hover div.content-menu{
+    display: block;
+}
+
+div.content-menu a:hover{
+    background-color: rgba(182, 179, 174, 0.9);
+    display: block;
+}
 
 /* STYLE MAIN */
     /* STYLE MAIN HEADER */
@@ -457,9 +482,6 @@ div.question .fa-solid{
     padding-top: 45px;
 }
 
-.displayed{
-    transition: 2s ease-in-out;
-}
 
 /* FAQ ACCORDION */
 
